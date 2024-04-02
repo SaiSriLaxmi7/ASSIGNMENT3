@@ -1,0 +1,66 @@
+<!--LINGA SAI SRILAXMI N01653528--> <!-- Student information -->
+<!DOCTYPE html> <!-- Defines the document type -->
+<html>
+<head>
+    <meta charset="utf-8"> <!-- Specifies the character encoding for the document -->
+    <title>Sales Tax Calculator</title> <!-- Title of the webpage -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configures the viewport settings for responsive design -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Links to an external CSS file for styling -->
+</head>
+<body>
+<main>
+  <fieldset> <!-- Creates a fieldset for grouping related form elements -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a> </li> <!-- Navigation link to Home page -->
+          <li><a href="../webpages/page.html">Sales Tax</a></li> <!-- Navigation link to Sales Tax page -->
+          <li><a href="../webpages/page1.html">Change </a> </li> <!-- Navigation link to Change page -->
+          <li><a href="../webpages/page2.html">Income Tax </a> </li> <!-- Navigation link to Income Tax page -->
+          <li><a href="../webpages/page3.html">Reservation </a> </li> <!-- Navigation link to Reservation page -->
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <main id="main1"> <!-- Begins a form -->
+        <br>
+      <h1>Sales Tax Calculator</h1> <!-- Heading for the form -->
+    <br>
+    
+    <p>Enter Subtotal and Tax Rate and click "Calculate".</p> <!-- Instruction for the user -->
+    <br>
+    <label for="subtotal">Subtotal:</label> <!-- Label for the subtotal input -->
+    <input type="text" id="subtotal" ><br> <!-- Text input field for subtotal -->
+
+    <br>
+
+    <label for="tax_rate">Tax Rate:</label> <!-- Label for the tax rate input -->
+    <input type="text" id="tax_rate" ><br> <!-- Text input field for tax rate -->
+
+    <br>
+
+    <label for="sales_tax">Sales Tax:</label> <!-- Label for the sales tax output -->
+    <input type="text" id="sales_tax" disabled ><br> <!-- Text input field for sales tax (disabled so users cannot input) -->
+
+    <br>
+
+    <label for="total">Total:</label> <!-- Label for the total output -->
+    <input type="text" id="total" disabled ><br> <!-- Text input field for total (disabled so users cannot input) -->
+
+    <br>
+
+    <label>&nbsp;</label> <!-- Empty label for spacing -->
+    <input type="button" id="calculate" value="Calculate" > <!-- Button to calculate the sales tax and total -->
+    <input type="button" id="clear" value="Clear" ><br> <!-- Button to clear the inputs -->
+    <br>
+    <br>
+    &copy; Linga Sai Srilaxmi N01653528 2024 <!-- Copyright information -->
+    <br>
+    <br>
+  </main>
+  </form> <!-- Ends the form -->
+</fieldset> <!-- Ends the fieldset -->
+</main>
+<script src="../js/script.js"></script> <!-- Links to an external JavaScript file -->
+</body>
+</html>

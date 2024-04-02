@@ -1,0 +1,59 @@
+/* LINGA SAI SRILAXMI N01653528 */ /* Comment indicating author information */
+* {
+    padding: 0; /* Resets padding for all elements */
+    margin: 0; /* Resets margin for all elements */
+}
+
+h1 {
+    text-align: center; /* Centers the text alignment of h1 elements */
+}
+
+body {
+    background-color: rgb(225, 224, 222); /* Sets the background color of the body to a light peach color */
+    border: 2px solid black; /* Adds a black border around the body */
+}
+
+header {
+    background-color: rgb(247, 96, 96); /* Sets the background color of the header to a shade of red */
+    padding: 2%; /* Adds padding around the header content */    
+    color: rgb(6, 6, 86); /* Sets the text color of the header */
+}
+
+header nav {
+    margin-right: 20px; /* Adjust margin to create space between navigation and the edge of the header */
+}
+
+header nav ul {
+    list-style: none; /* Removes default list styles */
+    display: flex; /* Display the list items horizontally */
+}
+
+header nav ul li {
+    margin-left: 30px; /* Add margin between each navigation item */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Removes underline from anchor text */
+    color: #000; /* Sets the color of anchor text */
+    font-size: 25px; /* Sets the font size of anchor text */  
+}
+
+header nav {
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align navigation items to the right */
+}
+
+header nav ul li a:hover {
+    background-color: rgb(225, 224, 222); /* Background color changes when hovered */
+}
+
+fieldset {
+    border: 2px solid black; /* Sets border properties for the fieldset */
+    padding-left: 50px; /* Adds padding to the left side of the fieldset */
+    padding-right: 50px; /* Adds padding to the right side of the fieldset */
+}
+
+#submit_Request {
+    font-size: 20px; /* Sets the font size of the submit button */
+    text-transform: uppercase; /* Converts the text of the submit button to uppercase */
+}

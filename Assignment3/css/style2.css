@@ -1,0 +1,51 @@
+/* LINGA SAI SRILAXMI N01653528 */ /* Comment indicating author information */
+* {
+    padding: 0; /* Resets padding for all elements */
+    margin: 0; /* Resets margin for all elements */
+}
+
+main {
+    background-color: rgb(225, 224, 222); /* Sets the background color of the main section */
+    text-align: center; /* Centers the content horizontally within the main section */
+    padding-top: 8%; /* Adds padding to the top of the main section */
+    padding-bottom: 10%; /* Adds padding to the bottom of the main section */
+}
+
+header {
+    background-color: rgb(247, 96, 96); /* Sets the background color of the header to a shade of red */
+    padding: 2.5%; /* Adds padding around the header content */
+    width: 98%; /* Sets the width of the header */
+    color: rgb(6, 6, 86); /* Sets the text color of the header */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Removes underline from anchor text */
+    color: #000; /* Sets the color of anchor text */
+    margin: 30px; /* Sets margin around anchor text */
+    font-size: 25px; /* Sets the font size of anchor text */
+}
+
+nav {
+    float: right; /* Floats the navigation to the right */
+}
+
+header ul {
+    display: flex; /* Uses flexbox for layout */
+    list-style: none; /* Removes default list styles */
+}
+
+header nav ul li a:hover {
+    background-color: rgb(225, 224, 222); /* Background color changes when hovered */
+}
+
+fieldset {
+    padding-top: 2.5%; /* Adds padding to the top of the fieldset */
+    padding-bottom: 2%; /* Adds padding to the bottom of the fieldset */
+    border: 2px solid black; /* Sets border properties for the fieldset */
+    width: 800px; /* Sets the width of the fieldset */
+    margin-left: 25%; /* Sets the left margin of the fieldset */
+}
+
+h1 {
+    font-size: 50px; /* Sets the font size of h1 elements */
+}

@@ -1,0 +1,21 @@
+#fieldsetindex {
+    text-align: center; /* Center-aligns the content within the element with id 'fieldsetindex' */
+    padding: 14.5%; /* Sets the padding for the element */
+    line-height: 200%; /* Sets the line height for the text within the element */
+}
+
+body {
+    background-image: url(../images/gettyimages-1437733786.webp); /* Sets the background image for the body */
+}
+
+a {
+    color: #000; /* Sets the color of the anchor text */
+    font-size: 22px; /* Sets the font size of the anchor text */
+    text-decoration: none; /* Removes the underline from anchor text */
+    text-transform: uppercase; /* Converts the anchor text to uppercase */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline to anchor text when hovered */
+    color: rgb(255, 0, 0); /* Changes the color of anchor text to red when hovered */
+}

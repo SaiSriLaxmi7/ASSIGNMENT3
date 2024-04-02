@@ -1,0 +1,97 @@
+<!--LINGA SAI SRILAXMI N01653528--> <!-- Student information -->
+<!DOCTYPE html> <!-- Defines the document type -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configures the viewport settings for responsive design -->
+    <title>Reservation Request</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="../css/style3.css"> <!-- Links to an external CSS file for styling -->
+</head>
+<header>
+<nav>
+    <ul>
+      <li><a href="../index.html">Home</a> </li> <!-- Navigation link to Home page -->
+      <li><a href="../webpages/page.html">Sales Tax</a></li> <!-- Navigation link to Sales Tax page -->
+      <li><a href="../webpages/page1.html">Change </a> </li> <!-- Navigation link to Change page -->
+      <li><a href="../webpages/page2.html">Income Tax </a> </li> <!-- Navigation link to Income Tax page -->
+      <li><a href="../webpages/page3.html">Reservation </a> </li> <!-- Navigation link to Reservation page -->
+    </ul>
+  </nav>
+</header>
+<body>
+    <form> <!-- Begins a form -->
+        <fieldset> <!-- Creates a fieldset for grouping related form elements -->
+            <h1> Room Reservation Request</h1> <!-- Heading for the form --> 
+        <fieldset id="field1"> <!-- Creates a nested fieldset for general information -->
+            <legend>General information</legend> <!-- Legend for the nested fieldset -->
+            <br>
+            <label>Arrival date: </label> <!-- Label for the arrival date input -->
+            <input type="date" name="arrival" id="Arrivaldate" placeholder="1/27/2023"> <!-- Date input field for arrival date -->
+            <br>
+            <br>
+            <label>Nights:</label> <!-- Label for the nights input -->
+            <input type="number" name="nights" id="nights" placeholder="2"> <!-- Number input field for number of nights -->
+            <br>
+            <br>
+            <label for="Adults">Adults:</label> <!-- Label for the adults select -->
+            <select name="Adults" id="Adults"> <!-- Select field for number of adults -->
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <br>
+            <br>
+            <label for="Children">Children:</label> <!-- Label for the children select -->
+            <select name="Children" id="Children"> <!-- Select field for number of children -->
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <br>
+        </fieldset> 
+        <br>
+        <fieldset id="field2"> <!-- Creates a nested fieldset for preferences -->
+            <legend>Preferences</legend> <!-- Legend for the nested fieldset -->
+            <br>
+            <label>Room Type</label> <!-- Label for room type options -->
+            <input type="radio" name="room" id="standard"  checked>Standard&nbsp;&nbsp;&nbsp; <!-- Radio button for standard room type -->
+            <input type="radio" name="room" id="business" >Business&nbsp;&nbsp;&nbsp; <!-- Radio button for business room type -->
+            <input type="radio" name="room" id="suite" >Suite <!-- Radio button for suite room type -->
+            <br>
+            <br>
+            <label>Bed Type</label>  <!-- Label for bed type options -->
+            <input type="radio" name="bed" id="king" checked>King&nbsp;&nbsp;&nbsp; <!-- Radio button for king bed type -->
+            <input type="radio" name="bed" id="double" >Double Double<br><br> <!-- Radio button for double bed type -->
+            <input type="checkbox" name="smoking" id="smoking">Smoking<br> <!-- Checkbox for smoking preference -->
+        </fieldset>  
+        <br>
+        <fieldset id="field3"> <!-- Creates a nested fieldset for contact information -->
+            <legend>Contact information</legend> <!-- Legend for the nested fieldset -->
+            <br>
+            <label for="name">Name</label> <!-- Label for the name input -->
+            <input type="text" name="name" id="name"> <!-- Text input field for name -->
+            <br>
+            <br>
+            <label for="email">Email:</label> <!-- Label for the email input -->
+            <input type="text" name="email" id="email"> <!-- Text input field for email -->
+            <br>
+            <br>
+            <label for="phone">Phone:</label> <!-- Label for the phone input -->
+            <input type="text" name="phone" id="phone" placeholder="999-999-9999"> <!-- Text input field for phone -->
+            <br>
+        </fieldset> 
+        <br>
+        <button id="submit_Request">submit Request</button> <!-- Button to submit the reservation request -->
+        <br>
+        <br>
+        &copy; Linga Sai Srilaxmi N01653528 2024 <!-- Copyright information -->
+        <br>
+        </fieldset>
+    </form>
+    <script src="../js/script3.js"></script> <!-- Links to an external JavaScript file -->
+</body>
+</html>

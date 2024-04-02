@@ -1,0 +1,77 @@
+/* LINGA SAI SRILAXMI N01653528 */   
+header {
+    padding: 3%; /* Adds padding around the content of the header */
+    background-color: rgb(247, 96, 96); /* Sets the background color of the header to a light blue */
+    width: 100%;
+}
+
+* {
+    margin: 0; /* Resets margin for all elements */
+    padding: 0; /* Resets padding for all elements */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the default font family for the entire document */
+    line-height: 1.6; /* Sets the line height for text content */
+    background-color: rgb(225, 224, 222);
+    border: 2px solid black;
+}
+
+input[type="text"],
+button {
+    width: 100px; /* Sets the width of text inputs and buttons */
+}
+
+input[type="text"] {
+    margin-right: 10px; /* Adds margin to the right of text inputs */
+}
+
+button {
+    cursor: pointer; /* Changes cursor to pointer on hover for buttons */
+}
+
+main {
+    background-color: rgb(225, 224, 222);
+    border: 2px solid black;
+    padding: 63px 0 65px 0;
+    text-align: center;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    background-color: rgb(247, 96, 96); /* Sets the background color of the header to a shade of red */
+    padding: 1%; /* Adds padding around the header content */
+    width: 98%;
+    color: rgb(6, 6, 86);
+    height: 50px;
+    
+}
+header nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    font-size: 25px;
+}
+nav
+{
+    
+   float: right; 
+    
+}
+header ul 
+{
+    display: flex;
+    list-style: none;
+    
+}
+header nav ul li a:hover {
+    background-color: rgb(225, 224, 222);
+}
+footer {
+    background-color: rgb(247, 96, 96); /* Sets the background color of the footer to a light blue */
+    padding: 4% 4% 4% 2%; /* Adds padding to the footer (top, right, bottom, left) */
+    text-align: center;
+}
+
